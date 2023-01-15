@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Cambiador inclusivo",
+    "description": "Esta extensión reemplaza automáticamente la palabra 'hombre' o 'mujer' por 'persona', 'esposo' o 'esposa' por conyuge y 'padre' o 'madre' por progenitor en las páginas web que visitas",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["cambiador.js"]
+        }
+    ]
+    
+}

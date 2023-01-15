@@ -1,0 +1,30 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+#status {
+    text-align: center;
+    color: #333333;
+    margin-top: 20px;
+}
+
+#toggle-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#toggle-button:hover {
+    background-color: #3e8e41;
+}
